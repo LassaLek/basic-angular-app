@@ -1,15 +1,16 @@
 # BasicAngularApp description
 ## Example app
-https://lassalek.github.io/example/
+Example app is only for basic overview - accessible only on https://lassalek.github.io/basic-angular-app/
 
 Test user: 
 "email": "eve.holt@reqres.in",
 "password": "cityslicka"
 
+## Information
 Angular version 14.0.2.
 Additionally - Angular Material, lodash
 
-NOTES - debts:
+## Debts:
 - tests were completely omitted in this example
 - further compotentarization (tiles, tile list, toolbar) was not done since the future component structure could not be sufficiently estimated.
 - Color are not done via variables
