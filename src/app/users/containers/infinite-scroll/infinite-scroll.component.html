@@ -1,6 +1,6 @@
-<mat-grid-list [cols]="breakpoint" (window:resize)="onResize($event)">
+<mat-grid-list [cols]="breakpoint" (window:resize)="onResize($event)" class="scroll">
   <mat-grid-tile *ngFor="let item of itemResults$|async">
-    <mat-card>
+    <mat-card color="accent">
       <mat-card-title-group>
         <mat-card-title>
           <button mat-button color="accent" [routerLink]="['/users', item.id]">{{item.first_name}} {{item.last_name}}</button>
@@ -10,5 +10,7 @@
     </mat-card>
   </mat-grid-tile>
 </mat-grid-list>
-<mat-spinner *ngIf="loading" style="margin:0 auto;"
+<mat-spinner *ngIf="loading"
+             style="margin:0 auto;"
+             color="accent"
              mode="indeterminate"></mat-spinner>

@@ -9,7 +9,9 @@ Test user:
 Angular version 14.0.2.
 Additionally - Angular Material, lodash
 
-Tests - tests were completely omitted in this example
+NOTES:
+- tests were completely omitted in this example
+- further compotentarization (tiles, tile list, toolbar) was not done since the future component structure could not be sufficiently estimated.
 
 ## Requirements
 The application will consist of the following parts:
@@ -42,7 +44,7 @@ Routes used:
 ## Users List
 - [x] Display users list as a list of tiles. Each tile should display: avatar, first name, last
   name, email.
-- [-] The view of the tile should be responsive (optimized for the desktop/tablet/mobile
+- [] The view of the tile should be responsive (optimized for the desktop/tablet/mobile
   view).
 - [x] User’s name should be a link to the details page.
 - [x] Implement a continuous scroll strategy for the users list pagination.

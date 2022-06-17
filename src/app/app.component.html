@@ -1,7 +1,7 @@
 <mat-toolbar color="primary">
-  <span>{{title}}</span>
+  <div class="accent-color">{{title}}</div>
   <span class="example-spacer"></span>
-  <button mat-button *ngIf="currentUserLogged" (click)="logout()">Logout</button>
+  <button color="accent" mat-button *ngIf="currentUserLogged" (click)="logout()">Logout</button>
 </mat-toolbar>
 
 <router-outlet></router-outlet>
