@@ -4,7 +4,7 @@ import { LoginPageComponent } from './auth/containers/login-page/login-page.comp
 import { UsersPageComponent } from './users/containers/users-page/users-page.component';
 import { AuthenticationGuard } from './auth/service/authentication.guard';
 import { UserDetailComponent } from './users/containers/user-detail/user-detail.component';
-import { NotFoundComponent } from './shared/not-found/not-found.component';
+import { NotFoundComponent } from './_shared/components/not-found/not-found.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'users', pathMatch: 'full' },

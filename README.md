@@ -1,10 +1,17 @@
 # BasicAngularApp description
+## Example app
+https://lassalek.github.io/example/
+
+Test user: 
+"email": "eve.holt@reqres.in",
+"password": "cityslicka"
 
 Angular version 14.0.2.
 Additionally - Angular Material, lodash
 
 Tests - tests were completely omitted in this example
 
+## Requirements
 The application will consist of the following parts:
 1. Login page + possibility to logout
 2. Users List page
