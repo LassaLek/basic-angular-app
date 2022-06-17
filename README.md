@@ -9,9 +9,10 @@ Test user:
 Angular version 14.0.2.
 Additionally - Angular Material, lodash
 
-NOTES:
+NOTES - debts:
 - tests were completely omitted in this example
 - further compotentarization (tiles, tile list, toolbar) was not done since the future component structure could not be sufficiently estimated.
+- Color are not done via variables
 
 ## Requirements
 The application will consist of the following parts:

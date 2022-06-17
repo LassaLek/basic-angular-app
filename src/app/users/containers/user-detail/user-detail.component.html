@@ -1,13 +1,13 @@
-<mat-toolbar>
+<mat-toolbar color="primary">
   <mat-icon color="accent" (click)="goBack()">{{'arrow_back'}}</mat-icon>
 </mat-toolbar>
+
 <mat-card color="primary">
   <mat-card-header>
     <div mat-card-avatar class="example-header-image"></div>
-    <mat-card-title>{{user?.id}}</mat-card-title>
-    <mat-card-subtitle>{{user?.first_name}} {{user?.last_name}}</mat-card-subtitle>
+    <mat-card-title>{{user?.id}} - {{user?.first_name}} {{user?.last_name}}</mat-card-title>
   </mat-card-header>
-  <img mat-card-image src="{{user?.avatar}}" alt="Photo of a Shiba Inu">
+  <img mat-card-image src="{{user?.avatar}}" alt="User avatar">
   <mat-card-content>
     <p>
       {{user?.email}}

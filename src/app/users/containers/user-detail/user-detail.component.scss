@@ -1,7 +1,12 @@
-.example-card {
-  max-width: 400px;
-}
 
 .example-header-image {
   background-size: cover;
+}
+
+mat-card {
+  background-color: #673ab7;
+  color: #ffd740;
+  font-size: 24px;
+  margin: 100px auto auto auto;
+  width: 600px;
 }
