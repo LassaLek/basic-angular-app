@@ -9,7 +9,7 @@ import { UsersService } from './users/services/users.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Example';
+  title = 'Basic Angular App';
   currentUserLogged: boolean = false;
 
   constructor(
